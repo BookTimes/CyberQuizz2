@@ -379,7 +379,7 @@ const endExam = function () {
 };
 
 const j = setInterval(() => {
-  var endTime = new Date("2024-01-23T16:40:00");
+  var endTime = new Date("2024-01-23T16:50:00");
 
   var currentTime = new Date();
 
