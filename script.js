@@ -266,7 +266,7 @@ document.getElementsByTagName("html")[0].addEventListener("mouseleave", () => {
   const j = setInterval(() => {
     q += 1;
     console.log(q);
-    if (q == 5) {
+    if (q == 3) {
       document.getElementsByClassName("overlay")[0].innerHTML =
         "<h1>Disqualified</h1>";
       h = false;
